@@ -1,0 +1,43 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+
+p{
+    margin-bottom: 50px;
+}
+.title{
+    margin-bottom: 50px;
+}
+
+main{
+    width: fit-content;
+    border: 1px solid black;
+    padding: 2rem;
+    background-image: url() ;
+
+}
+
+.img_row{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: none;
+
+}
+
+.img_row img {
+    width: 150px;
+    transition: all 0.5s;
+}
+
+.img_row > img:hover{
+    width: 180px;
+  
+}
